@@ -1,5 +1,5 @@
 # Extension Decisions in Open Source Software Ecosystem
----
+
 
 ## Abstract
 GitHub Marketplace, as an open source software platform, is rapidly evolving, with an average annual increase of 41.23% in new tools by new or existing providers. 
