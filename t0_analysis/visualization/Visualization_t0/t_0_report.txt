@@ -1,0 +1,32 @@
+Category: t_0
+The max number of feature an action posses: 110
+The min number of feature an action posses: 1
+Average number of features per actions: 4.59
+There are 564 disjoint/ connected components in feature network-- objectives of the category
+10 most important features: 
+10. pullrequestoject id|0.022825416409623687
+9. input data point value|0.01974090067859346
+8. specify github access token|0.00987045033929673
+7. greet|0.0063588478147392396
+6. github context|0.006263939638399848
+5. greet someone record time|0.0053148578750059315
+4. macos-universal-binary-action|0.005267403786836235
+3. track duration deployment millisecond|0.004887771081478669
+2. number millisecond wait|0.004792862905139278
+1. time greeted|0.004508138376121103
+All nodes are unique: True
+There are 701 Atomic Actions working on unique objectives.
+There are 659 atomic publishers working on one or more atomic actions
+There are 8638  nodes with degree 2 or more
+number of actions with degree 2 or higher (actions with at least 2 features):  5006
+number of features with degree 2 or higher (features common between at least 2 actions):  3632
+There are 4304 actions with at least one feature in common with at least another actions--composite actions (features of degree 2 or higher)
+There are 51 objectives targeted by composite publishers
+There are 3356 composite publishers
+#####################################
+Features that happen together in this network: []
+#####################################
+possible tuple sizes for features that happen together:0
+Different sizes and their counts:
+We found 14 Basal Features: 
+['add common pullrequestoblem matcher android build', 'call api passing result', 'comment post pullrequestevious step output', 'specify couchdb version', 'deploying managing fly apps', 'sdl2mixer runtime binary saved', 'feature 1 user authentication', 'feature 2 data encryption', 'puppeteer headful', 'install tic commandline tool', 'jfrog artifactory cli command', 'maven lifecycles', 'sbt command', 'sbt build tool action']
