@@ -2,7 +2,7 @@ import os
 import ast
 import pandas as pd
 
-directory = "time_t0_data\\time_t0_processed"
+directory = "path to the processed file"
 
 all_features = []
 for root, dirs, files in os.walk(directory):
