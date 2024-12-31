@@ -14,3 +14,19 @@ pip install -r requirements.txt
 ```
 ## Installation
 Make a `fork` or `clone` the repository. 
+
+## Dataset
+This study focuses on the "Continuous Integration" category in the GitHub Marketplace Ecosystem, which includes automation tools for continuous integration. We scraped data from 6,983 Actions in this category using the BeautifulSoup package due to the lack of a public API. Actions without an action.yaml file or resulting in 404 errors were excluded. The Marketplace restricts access to the first 1,000 actions per category, so we utilized search algorithms and bi-grams to retrieve 96.34% of the available Actions in this category. For each Action, we collected metadata (e.g., name, description, publisher, stars) and cloned repositories to extract action.yaml files for further analysis. We extracted data at two time points t0 and t1 and for each time point, we extracted features using LLMs (refer to the paper for more details). 
+
+The data can be found in `Data` folder. We are sharing both data with raw and processed features. 
+
+## Code Structure
+1. `Auxiliary files` directory: contains scripts for adding publishers to the data
+2. `Data` directory: contains action datasets with raw and processed features at t0 and t1.
+3. `Feature Extraction` directory: contains script used to extract features from descriptions using LLMs and CRISPE framework.
+4. `Feature preprocessing` directory: contains scripts required to create a dataset of unique features and clean the extracted feature by comparing it to this unique feature set using embeddings.
+5. `Research Questions` directory: contains Google Colab notebook to process the data and answer the research questions noted in the manuscript.
+6. `t0_analysis` directory: contains necessary scripts for analysis and visualization of feature network at t0 (for more detail refer to the paper).
+7. `t1_analysis` directory: contains necessary scripts for analysis and visualization of feature network at t1 (for more detail refer to the paper). 
+
+
