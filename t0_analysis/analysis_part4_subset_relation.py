@@ -26,7 +26,7 @@ def is_subset(list1, list2):
             break
     return answer
 
-path = ".\CI_t0_processed_1.csv"
+path = ".\CI_t0_processed.csv"
 df = pd.read_csv(path)
 
 df["temp"] = ""
