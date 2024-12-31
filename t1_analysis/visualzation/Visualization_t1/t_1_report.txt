@@ -1,0 +1,32 @@
+Category: t_1
+The max number of feature an action posses: 82
+The min number of feature an action posses: 1
+Average number of features per actions: 6.51
+There are 488 disjoint/ connected components in feature network-- objectives of the category
+10 most important features: 
+10. specify github access token|0.012086637014117193
+9. pullrequestoject id|0.007380906336620899
+8. github context|0.006027202991039773
+7. specify pullrequestevious generation version|0.005028040997872752
+6. create github release generation|0.0034487204280281058
+5. specify repository|0.003190872171726939
+4. name image|0.0030619480435763557
+3. view apim endpoint url|0.0029330239154257724
+2. CernVM File System (cvmfs)|0.0026751756591246053
+1. repository name owner|0.0025784825630116677
+All nodes are unique: True
+There are 627 Atomic Actions working on unique objectives.
+There are 596 atomic publishers working on one or more atomic actions
+There are 12175  nodes with degree 2 or more
+number of actions with degree 2 or higher (actions with at least 2 features):  5958
+number of features with degree 2 or higher (features common between at least 2 actions):  6217
+There are 5331 actions with at least one feature in common with at least another actions--composite actions (features of degree 2 or higher)
+There are 33 objectives targeted by composite publishers
+There are 4066 composite publishers
+#####################################
+Features that happen together in this network: []
+#####################################
+possible tuple sizes for features that happen together:0
+Different sizes and their counts:
+We found 9 Basal Features: 
+['specify couchdb version', 'specify version apache maven use', 'add apache maven path', 'run android gradle task', 'creates documentation title', 'sdl2mixer runtime binary saved', 'download sdl2mixer source binary window using msvc', 'version sdl2mixer downloaded', 'enable common command']
